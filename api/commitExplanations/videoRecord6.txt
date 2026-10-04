@@ -1,0 +1,2 @@
+libs icindeki config icindeki config.service.ts de JWT ACCESS TOKEN falan kodlari bu videoda 
+elave olunur ma men onceden elave etmisdim

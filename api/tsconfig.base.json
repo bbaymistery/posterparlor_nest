@@ -1,0 +1,60 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "bundler",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "strict": false,
+    "paths": {
+      "@new-poster-parlor-api/auth": [
+        "./libs/auth/src/index.ts"
+      ],
+      "@new-poster-parlor-api/database": [
+        "./libs/database/src/index.ts"
+      ],
+      "@new-poster-parlor-api/utils": [
+        "./libs/utils/src/index.ts"
+      ],
+      "@new-poster-parlor-api/inventory": [
+        "./libs/inventory/src/index.ts"
+      ],
+      "@new-poster-parlor-api/order": [
+        "./libs/order/src/index.ts"
+      ],
+      "@new-poster-parlor-api/models": [
+        "./libs/models/src/index.ts"
+      ],
+      "@new-poster-parlor-api/config": [
+        "./libs/config/src/index.ts"
+      ],
+      "@new-poster-parlor-api/logger": [
+        "./libs/logger/src/index.ts"
+      ],
+      "@new-poster-parlor-api/admin": [
+        "./libs/admin/src/index.ts"
+      ],
+      "@new-poster-parlor-api/shared": [
+        "./libs/shared/src/index.ts"
+      ],
+      "@new-poster-parlor-api/review": [
+        "./libs/review/src/index.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}

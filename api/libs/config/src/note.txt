@@ -1,0 +1,29 @@
+NODE_ENV=development
+PORT=3000
+ALLOWED_ORIGINS=http://localhost:3000,http://localhost:4200
+
+# Database
+DB_URL=mongodb+srv://elgunezmemmedov_db_user:awQJ5uEwFNVtwDsi@cluster0.rbmhplw.mongodb.net
+DB_NAME=poster_parlor_dev
+POOL_SIZE=10
+
+# Google OAuth
+GOOGLE_CLIENT_ID=713469299798-6kacreihtfm7uaoujnv7havj1mbalftb.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=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
+GOOGLE_CALLBACK_URL=http://localhost:3000/api/auth/google/callback
+
+# JWT
+JWT_ACCESS_TOKEN_SECRET=dev_access_secret_key_123
+JWT_ACCESS_TOKEN_EXPIRES_IN=15m
+JWT_REFRESH_TOKEN_SECRET=dev_refresh_secret_key_123
+JWT_REFRESH_TOKEN_EXPIRES_IN=7d
+
+# Cloudinary
+CLOUDINARY_CLOUD_NAME=jvfyrygo
+CLOUDINARY_API_KEY=577996537331357
+CLOUDINARY_API_SECRET=LWLTjejEGRDSJYB22J4NSIc0q_w
+
+# Stripe Payment (Sandbox / Test Mode)
+
+STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable_key_here
+STRIPE_SECRET_KEY=sk_test_your_stripe_secret_key_here
